@@ -16,6 +16,7 @@ public class Main {
         else if (number >100){
             System.out.println("Nummret är för högt");
         }
+
     }
 }
 
