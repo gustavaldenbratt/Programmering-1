@@ -10,14 +10,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int h = sc.nextInt();
         int m = sc.nextInt();
-        int difference = m-45;
-        if (difference < 0){
-            m = 60+difference;
+        int dif = m-45;
+        if (dif < 0){
+            m = 60+dif;
             if (h == 0)
                 h = 24;
             System.out.println(h-1 + " " + m);
         }
         else
-            System.out.println(h + " " + difference);
+            System.out.println(h + " " + dif);
     }
 }
